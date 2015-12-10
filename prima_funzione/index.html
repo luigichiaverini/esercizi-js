@@ -6,17 +6,23 @@
 <body>
 <script type="text/javascript">
 
-function sumCubes (a,b) {
  
-	var a = prompt();
+	var text = prompt("scrivi una parola...")
 	
-	var b = prompt(); 
+	var counter = 0
+
+	if (typeof text === "string") {
+		for (i = 0; i < text.length; i++) {
+			if (text.charAt(i) == "e") {
+				counter ++
+			};
+		};
+
 	
-	return (a*a*a)+(b*b*b);
+};
+console.log(counter)
 	
-	}
-	 
-	 alert(sumCubes (2,3))
+	
 
 
 
