@@ -1,26 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Prima funzione</title>
+	<title>Primo array</title>
 </head>
 <body>
 <script type="text/javascript">
 
  
-	var text = prompt("scrivi una parola...")
+	var fruit = ["mela","banana","pera"];
 	
-	var counter = 0
+	console.log(fruit.length);
 
-	if (typeof text === "string") {
-		for (i = 0; i < text.length; i++) {
-			if (text.charAt(i) == "e") {
-				counter ++
-			};
-		};
+	console.log(fruit[1]);
 
-	
-};
-console.log(counter)
+	console.log(fruit[fruit.length-1].length);
 	
 	
 
